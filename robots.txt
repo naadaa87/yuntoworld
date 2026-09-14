@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yunto.pages.dev/sitemap.xml

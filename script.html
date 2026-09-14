@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>고유문자 sonilipi — 윤토 YUNTO</title>
+<meta name="description" content="윤토의 고유문자 sonilipi(소리글). 로마자 → 고유문자 변환기, 15자 표, 모음 논리, 음절 묶어 쓰기, 숫자 표기.">
+<meta property="og:title" content="고유문자 sonilipi — 윤토 YUNTO">
+<meta property="og:description" content="윤토의 고유문자 sonilipi(소리글). 로마자 → 고유문자 변환기, 15자 표, 모음 논리, 음절 묶어 쓰기, 숫자 표기.">
+<meta property="og:image" content="https://yunto.pages.dev/img/og.png">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#2a7c7b">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-mono@5.0.13/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/ibm-plex-mono@5.0.13/500.min.css">
+<link rel="stylesheet" href="assets/site.css">
+
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html"><svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" aria-hidden="true"><circle cx="50" cy="50" r="42"/><path d="M38 30 V60 M62 30 V60 M27 60 H73"/></svg><span>윤토</span><span class="rom">YUNTO</span></a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">메뉴</button>
+    <nav class="nav" id="nav"><a href="index.html">홈</a><a href="learn.html">배우기</a><a href="grammar.html">문법</a><a href="script.html">문자</a><a href="dictionary.html">사전</a><a href="phrases.html">표현</a><a href="about.html">소개</a></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero" style="padding-bottom:24px">
+  <div class="wrap">
+    <h1>고유문자 <span class="y-ink">sonilipi</span></h1>
+    <p class="lead">소리글이라는 뜻입니다. 자음은 어디서(세 가족) 어떻게(네 가지 획) 내는 소리인지가 모양이 되고, 모음은 혀가 어디 있는지가 획의 방향이 됩니다. 로마자 15자와 1:1로 대응하므로 언제든 서로 바꿔 쓸 수 있습니다.</p>
+  </div>
+</section>
+
+<section id="conv">
+  <div class="wrap">
+    <div class="sec-head"><h2>변환기</h2><p>로마자로 치면 고유문자로 보여 줍니다. 이름은 첫 글자를 대문자로 쓰면 앞에 점이 붙고, 숫자는 그대로 숫자 글자가 됩니다.</p></div>
+    <div class="conv">
+      <label for="conv-in" class="sr">변환할 문장</label>
+      <textarea id="conv-in" spellcheck="false" maxlength="200">mi ne nami si Siyun. mi on apen yunto.</textarea>
+      <div class="conv-note" id="conv-note"></div>
+      <div class="conv-out" id="conv-out" aria-live="polite"></div>
+      <div class="conv-actions">
+        <button class="btn primary sm" type="button" id="conv-png">PNG로 저장</button>
+        <button class="btn sm" type="button" id="conv-svg">SVG로 저장</button>
+        <button class="btn sm" type="button" id="conv-copy">로마자 복사</button>
+        <span class="small muted">저장한 그림은 프로필·굿즈·작품명에 자유롭게 쓸 수 있습니다.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mist" id="chart">
+  <div class="wrap">
+    <div class="sec-head"><h2>15자</h2><p>외울 것은 골격 셋, 방식 셋, 모음 획 두 방향입니다. 점도 꼬리도 없고, 모든 글자가 두 획 이하입니다.</p></div>
+    <div id="chart-cons"></div>
+    <h3 style="margin-top:30px">모음 — 원 하나와 두 방향의 획</h3>
+    <p class="muted">왼쪽 획은 혀가 앞, 오른쪽 획은 혀가 뒤, 위 획은 혀가 높다는 뜻입니다. 획이 없으면 가장 열린 소리 a입니다. i는 e에 높이를 더한 것이고, u는 o에 높이를 더한 것입니다. <b>닫힌 원이 보이면 그것은 언제나 모음입니다.</b></p>
+    <div class="glyph-grid" id="chart-vow"></div>
+  </div>
+</section>
+
+<section id="manner">
+  <div class="wrap">
+    <div class="sec-head"><h2>자음 — 세 가족, 네 가지 방식</h2><p>방식은 골격에 무엇을 덧붙이는 것이 아니라 획을 어떻게 긋느냐로 나타납니다. 그래서 작게 써도, 빨리 써도 살아남습니다.</p></div>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>방식</th><th>어떻게 나타나는가</th><th>소리의 성질</th><th>글자</th></tr></thead>
+      <tbody>
+        <tr><td>파열</td><td>골격 그대로</td><td>공기를 막았다가 터뜨린다</td><td class="y">p t k</td></tr>
+        <tr><td>비음</td><td>기준선에서 골격에 붙는 가로획</td><td>공기가 코로 흐른다 — 바닥이 막힌 모양</td><td class="y">m n</td></tr>
+        <tr><td>마찰</td><td>같은 획을 하나 더 긋는다</td><td>공기가 좁은 틈으로 새어 나간다 — 획이 갈라진 모양</td><td class="y">s h</td></tr>
+        <tr><td>흐름</td><td>마지막 획 끝이 오른쪽으로 흐른다</td><td>막지 않고 흘려보낸다 — 획도 흐른다</td><td class="y">w l y</td></tr>
+      </tbody>
+    </table></div>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>가족</th><th>골격</th><th>뜻</th><th>글자</th></tr></thead>
+      <tbody>
+        <tr><td>입술 가족</td><td>아래로 둥근 사발 ∪</td><td>입술로 내는 소리</td><td class="y">p m w</td></tr>
+        <tr><td>혀끝 가족</td><td>세로획 |</td><td>혀끝을 세워 내는 소리</td><td class="y">t n s l</td></tr>
+        <tr><td>혀뒤·목 가족</td><td>왼쪽으로 꺾인 획 &lt;</td><td>혀 뒤와 목에서 내는 소리</td><td class="y">k h y</td></tr>
+      </tbody>
+    </table></div>
+    <p class="small muted">입술 가족에는 마찰음이, 혀뒤 가족에는 비음이 없습니다. 그 소리가 윤토의 음운에 없기 때문입니다.</p>
+  </div>
+</section>
+
+<section class="mist" id="syll">
+  <div class="wrap">
+    <div class="sec-head"><h2>음절 묶어 쓰기와 받침</h2><p>한 음절 안의 글자는 붙여 쓰고 음절 사이는 조금 띄웁니다. 받침 n은 모음 크기로 작게 씁니다. 받침이 될 수 있는 자음은 n 하나뿐이므로, 작게 쓴 글자는 언제나 받침이고 거기서 음절이 끝난다는 표시가 됩니다.</p></div>
+    <div class="grid-2">
+      <div><div class="ex-row"><div><span class="yn " data-yn="ka">ka</span><span class="rom"><span class="y">ka</span></span></div><div><div class="ko">카</div></div></div><div class="ex-row"><div><span class="yn " data-yn="kan">kan</span><span class="rom"><span class="y">kan</span></span></div><div><div class="ko">칸 — n을 작게</div></div></div><div class="ex-row"><div><span class="yn " data-yn="yunto">yunto</span><span class="rom"><span class="y">yunto</span></span></div><div><div class="ko">yun + to — 두 덩어리</div></div></div></div>
+      <div><div class="ex-row"><div><span class="yn " data-yn="insan">insan</span><span class="rom"><span class="y">insan</span></span></div><div><div class="ko">in + san</div></div></div><div class="ex-row"><div><span class="yn " data-yn="pahasa">pahasa</span><span class="rom"><span class="y">pahasa</span></span></div><div><div class="ko">pa + ha + sa</div></div></div><div class="ex-row"><div><span class="yn " data-yn="Hankuk">Hankuk</span><span class="rom"><span class="y">Hankuk</span></span></div><div><div class="ko">이름 — 앞에 점</div></div></div></div>
+    </div>
+    <div class="tbl-wrap" style="margin-top:20px"><table>
+      <thead><tr><th>구간</th><th>간격</th><th>효과</th></tr></thead>
+      <tbody>
+        <tr><td>같은 음절 안</td><td>12 단위</td><td>자음과 모음이 한 덩어리로 보임</td></tr>
+        <tr><td>음절과 음절 사이</td><td>46 단위</td><td>음절 경계가 보임</td></tr>
+        <tr><td>낱말과 낱말 사이</td><td>86 단위</td><td>낱말 경계가 분명함</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section id="numerals">
+  <div class="wrap">
+    <div class="sec-head"><h2>숫자 — 자음 글자 위에 막대 하나</h2><p>자음의 순서가 그대로 숫자입니다(p=1 … w=9, y=0). 위에 막대를 얹으면 숫자로 읽습니다. 새로 외울 글자가 없습니다. 데이터·검색·URL에서는 아라비아 숫자를 그대로 쓰고, 이 표기는 간판·포스터·굿즈 같은 표시용입니다.</p></div>
+    <div class="glyph-grid" id="chart-num"></div>
+    <div style="margin-top:18px"><div class="ex-row"><div><span class="yn " data-yn="2026">2026</span><span class="rom"><span class="y">2026</span></span></div><div><div class="ko">tun mila yun tun sen</div></div></div><div class="ex-row"><div><span class="yn " data-yn="sikan 3">sikan 3</span><span class="rom"><span class="y">sikan 3</span></span></div><div><div class="ko">3시</div></div></div></div>
+  </div>
+</section>
+
+<section class="mist" id="write">
+  <div class="wrap">
+    <div class="sec-head"><h2>쓰는 법</h2></div>
+    <div class="grid-2">
+      <div>
+        <h3>획순</h3>
+        <ul>
+          <li>골격을 먼저 쓰고, 방식 획을 나중에 씁니다.</li>
+          <li>세로획은 위에서 아래로, 곡선은 왼쪽 위에서 시작합니다.</li>
+          <li>어떤 글자도 두 획을 넘지 않습니다. i와 u의 옆 획과 위 획은 이어서 한 번에 긋습니다.</li>
+          <li>손글씨에서는 곡선을 흘려 써도 됩니다. 획의 개수와 흐름만 살아 있으면 같은 글자입니다.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>조판</h3>
+        <ul>
+          <li>왼쪽에서 오른쪽으로 씁니다. 대소문자는 없습니다.</li>
+          <li>어떤 글자도 기준선 아래로 내려가지 않으므로 행간을 글자 높이의 1.8배까지 좁힐 수 있습니다.</li>
+          <li>문장부호는 . , ? ! 등 기존 부호를 그대로 씁니다.</li>
+          <li>이름 앞에는 작은 점을 찍습니다. 로마자에서는 첫 글자를 대문자로 씁니다.</li>
+          <li>굵기는 Regular(획 7)와 Bold(획 10) 둘로 시작합니다.</li>
+        </ul>
+      </div>
+    </div>
+    <h3 style="margin-top:20px">두 표기의 역할</h3>
+    <div class="tbl-wrap"><table>
+      <thead><tr><th>자리</th><th>로마자</th><th>고유문자</th></tr></thead>
+      <tbody>
+        <tr><td>입력</td><td>항상 로마자로 친다</td><td>직접 입력하지 않음</td></tr>
+        <tr><td>저장·검색·URL</td><td>유일한 표준</td><td>쓰지 않음</td></tr>
+        <tr><td>본문 읽기</td><td>글꼴이 없을 때</td><td>기본</td></tr>
+        <tr><td>학습</td><td>첫날부터</td><td>3주차부터</td></tr>
+        <tr><td>표시·디자인·굿즈</td><td>보조</td><td>기본</td></tr>
+      </tbody>
+    </table></div>
+    <div class="note"><p><b>이 경계를 지키는 이유.</b> 데이터는 로마자, 보이는 것은 고유문자. 이렇게 나누면 고유문자는 아무런 기술적 비용도 만들지 않습니다. 이 사이트의 모든 고유문자도 로마자를 입력받아 그 자리에서 그린 것입니다.</p></div>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <div style="display:flex;align-items:center;gap:8px;color:var(--ink);font-weight:700;margin-bottom:6px"><span style="width:22px;height:22px;display:inline-block"><svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" aria-hidden="true"><circle cx="50" cy="50" r="42"/><path d="M38 30 V60 M62 30 V60 M27 60 H73"/></svg></span> 윤토 <span class="rom" style="font-family:var(--mono);font-weight:500;color:var(--slate)">YUNTO</span></div>
+      <p>함께 배우고, 바로 쓰는 창작 언어. 언어 규칙과 사전은 누구나 자유롭게 쓰고 가르칠 수 있습니다. 이름·심볼·글꼴은 프로젝트가 관리합니다.</p>
+      <p class="small">v0.2 · 사용자 테스트 전 초안입니다. 규칙과 낱말은 v1.0 발표 전까지 바뀔 수 있습니다. © <span data-year>2026</span> YUNTO project</p>
+    </div>
+    <nav aria-label="바로가기">
+      <a href="learn.html">배우기</a><a href="grammar.html">문법</a><a href="script.html">문자</a><a href="dictionary.html">사전</a><a href="about.html">소개</a><a href="https://github.com/naadaa87/yunto" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</footer>
+<script src="assets/sonilipi.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/script-page.js"></script>
+</body>
+</html>

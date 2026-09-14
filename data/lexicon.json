@@ -1,0 +1,1620 @@
+{
+ "version": "0.2",
+ "updated": "2026-09-12",
+ "roots": [
+  {
+   "f": "insan",
+   "cat": "사람·관계",
+   "ko": "사람",
+   "en": "person",
+   "hint": "아랍어·터키어·인도네시아어 insan"
+  },
+  {
+   "f": "pamili",
+   "cat": "사람·관계",
+   "ko": "가족",
+   "en": "family",
+   "hint": "family / familia"
+  },
+  {
+   "f": "tomo",
+   "cat": "사람·관계",
+   "ko": "친구",
+   "en": "friend",
+   "hint": "일본어 tomo(友)"
+  },
+  {
+   "f": "mama",
+   "cat": "사람·관계",
+   "ko": "엄마",
+   "en": "mother",
+   "hint": "범언어"
+  },
+  {
+   "f": "papa",
+   "cat": "사람·관계",
+   "ko": "아빠",
+   "en": "father",
+   "hint": "범언어"
+  },
+  {
+   "f": "anaku",
+   "cat": "사람·관계",
+   "ko": "아이",
+   "en": "child",
+   "hint": "인도네시아어 anak"
+  },
+  {
+   "f": "otoko",
+   "cat": "사람·관계",
+   "ko": "남성",
+   "en": "male",
+   "hint": "일본어 otoko(男)"
+  },
+  {
+   "f": "wanita",
+   "cat": "사람·관계",
+   "ko": "여성",
+   "en": "female",
+   "hint": "인도네시아어 wanita"
+  },
+  {
+   "f": "nami",
+   "cat": "사람·관계",
+   "ko": "이름",
+   "en": "name",
+   "hint": "name / 名前"
+  },
+  {
+   "f": "kunpu",
+   "cat": "사람·관계",
+   "ko": "모임·팀",
+   "en": "group / team",
+   "hint": "인도네시아어 kumpul(모이다)"
+  },
+  {
+   "f": "amo",
+   "cat": "사람·관계",
+   "ko": "사랑(하다)",
+   "en": "love",
+   "hint": "라틴어 amo"
+  },
+  {
+   "f": "tolon",
+   "cat": "사람·관계",
+   "ko": "돕다",
+   "en": "help",
+   "hint": "인도네시아어 tolong"
+  },
+  {
+   "f": "tanya",
+   "cat": "사람·관계",
+   "ko": "묻다·질문",
+   "en": "ask / question",
+   "hint": "인도네시아어 tanya"
+  },
+  {
+   "f": "kotaye",
+   "cat": "사람·관계",
+   "ko": "답하다·답",
+   "en": "answer",
+   "hint": "일본어 kotae(答え)"
+  },
+  {
+   "f": "nayan",
+   "cat": "몸·감각",
+   "ko": "눈",
+   "en": "eye",
+   "hint": "산스크리트 nayana"
+  },
+  {
+   "f": "telina",
+   "cat": "몸·감각",
+   "ko": "귀",
+   "en": "ear",
+   "hint": "인도네시아어 telinga"
+  },
+  {
+   "f": "tanan",
+   "cat": "몸·감각",
+   "ko": "손",
+   "en": "hand",
+   "hint": "인도네시아어 tangan"
+  },
+  {
+   "f": "kaki",
+   "cat": "몸·감각",
+   "ko": "발·다리",
+   "en": "foot / leg",
+   "hint": "말레이어 kaki"
+  },
+  {
+   "f": "kepala",
+   "cat": "몸·감각",
+   "ko": "머리",
+   "en": "head",
+   "hint": "인도네시아어 kepala"
+  },
+  {
+   "f": "kuti",
+   "cat": "몸·감각",
+   "ko": "입",
+   "en": "mouth",
+   "hint": "일본어 kuchi(口)"
+  },
+  {
+   "f": "tupu",
+   "cat": "몸·감각",
+   "ko": "몸",
+   "en": "body",
+   "hint": "인도네시아어 tubuh"
+  },
+  {
+   "f": "hati",
+   "cat": "몸·감각",
+   "ko": "마음·심장",
+   "en": "heart / mind",
+   "hint": "인도네시아어 hati"
+  },
+  {
+   "f": "liha",
+   "cat": "몸·감각",
+   "ko": "보다",
+   "en": "see / look",
+   "hint": "인도네시아어 lihat"
+  },
+  {
+   "f": "kiku",
+   "cat": "몸·감각",
+   "ko": "듣다",
+   "en": "hear / listen",
+   "hint": "일본어 kiku(聞く)"
+  },
+  {
+   "f": "hanasu",
+   "cat": "몸·감각",
+   "ko": "말하다·말",
+   "en": "speak / word",
+   "hint": "일본어 hanasu(話す)"
+  },
+  {
+   "f": "kome",
+   "cat": "몸·감각",
+   "ko": "먹다·음식",
+   "en": "eat / food",
+   "hint": "스페인어 comer"
+  },
+  {
+   "f": "minun",
+   "cat": "몸·감각",
+   "ko": "마시다",
+   "en": "drink",
+   "hint": "인도네시아어 minum"
+  },
+  {
+   "f": "nemulu",
+   "cat": "몸·감각",
+   "ko": "자다·잠",
+   "en": "sleep",
+   "hint": "일본어 nemuru(眠る)"
+  },
+  {
+   "f": "senti",
+   "cat": "몸·감각",
+   "ko": "느끼다·감정",
+   "en": "feel / feeling",
+   "hint": "라틴어 sentire"
+  },
+  {
+   "f": "iko",
+   "cat": "행동",
+   "ko": "가다",
+   "en": "go",
+   "hint": "일본어 iku(行く)"
+  },
+  {
+   "f": "kulu",
+   "cat": "행동",
+   "ko": "오다",
+   "en": "come",
+   "hint": "일본어 kuru(来る)"
+  },
+  {
+   "f": "tona",
+   "cat": "행동",
+   "ko": "주다",
+   "en": "give",
+   "hint": "라틴어 donare"
+  },
+  {
+   "f": "hapu",
+   "cat": "행동",
+   "ko": "받다·가져가다",
+   "en": "take / receive",
+   "hint": ""
+  },
+  {
+   "f": "tukulu",
+   "cat": "행동",
+   "ko": "만들다",
+   "en": "make",
+   "hint": "일본어 tsukuru(作る)"
+  },
+  {
+   "f": "sikoto",
+   "cat": "행동",
+   "ko": "일하다·일",
+   "en": "work",
+   "hint": "일본어 shigoto(仕事)"
+  },
+  {
+   "f": "lipi",
+   "cat": "행동",
+   "ko": "쓰다·글",
+   "en": "write / text",
+   "hint": "산스크리트 lipi(문자)"
+  },
+  {
+   "f": "kiyo",
+   "cat": "행동",
+   "ko": "읽다",
+   "en": "read",
+   "hint": ""
+  },
+  {
+   "f": "konpa",
+   "cat": "행동",
+   "ko": "사다",
+   "en": "buy",
+   "hint": "스페인어 comprar"
+  },
+  {
+   "f": "wente",
+   "cat": "행동",
+   "ko": "팔다",
+   "en": "sell",
+   "hint": "스페인어 vender"
+  },
+  {
+   "f": "ake",
+   "cat": "행동",
+   "ko": "열다",
+   "en": "open",
+   "hint": "일본어 akeru(開ける)"
+  },
+  {
+   "f": "sime",
+   "cat": "행동",
+   "ko": "닫다",
+   "en": "close",
+   "hint": "일본어 shimeru(閉める)"
+  },
+  {
+   "f": "hasime",
+   "cat": "행동",
+   "ko": "시작하다",
+   "en": "start",
+   "hint": "일본어 hajime(始め)"
+  },
+  {
+   "f": "owali",
+   "cat": "행동",
+   "ko": "끝나다·끝",
+   "en": "end / finish",
+   "hint": "일본어 owari(終わり)"
+  },
+  {
+   "f": "utili",
+   "cat": "행동",
+   "ko": "쓰다(사용)",
+   "en": "use",
+   "hint": "라틴어 utilis"
+  },
+  {
+   "f": "leta",
+   "cat": "행동",
+   "ko": "놓다·두다",
+   "en": "put",
+   "hint": "인도네시아어 letak"
+  },
+  {
+   "f": "punya",
+   "cat": "행동",
+   "ko": "가지다·있다(소유)",
+   "en": "have",
+   "hint": "인도네시아어 punya"
+  },
+  {
+   "f": "hase",
+   "cat": "행동",
+   "ko": "하다",
+   "en": "do",
+   "hint": "스페인어 hacer"
+  },
+  {
+   "f": "lali",
+   "cat": "행동",
+   "ko": "달리다",
+   "en": "run",
+   "hint": "인도네시아어 lari"
+  },
+  {
+   "f": "kamin",
+   "cat": "행동",
+   "ko": "걷다",
+   "en": "walk",
+   "hint": "스페인어 caminar"
+  },
+  {
+   "f": "yame",
+   "cat": "행동",
+   "ko": "멈추다",
+   "en": "stop",
+   "hint": "일본어 yameru(止める)"
+  },
+  {
+   "f": "tunku",
+   "cat": "행동",
+   "ko": "기다리다",
+   "en": "wait",
+   "hint": "인도네시아어 tunggu"
+  },
+  {
+   "f": "mituke",
+   "cat": "행동",
+   "ko": "찾다",
+   "en": "find / search",
+   "hint": "일본어 mitsukeru(見つける)"
+  },
+  {
+   "f": "muta",
+   "cat": "행동",
+   "ko": "바꾸다",
+   "en": "change",
+   "hint": "라틴어 mutare"
+  },
+  {
+   "f": "asopu",
+   "cat": "행동",
+   "ko": "놀다",
+   "en": "play",
+   "hint": "일본어 asobu(遊ぶ)"
+  },
+  {
+   "f": "apen",
+   "cat": "행동",
+   "ko": "배우다",
+   "en": "learn",
+   "hint": "스페인어 aprender"
+  },
+  {
+   "f": "ensi",
+   "cat": "행동",
+   "ko": "가르치다",
+   "en": "teach",
+   "hint": "스페인어 enseñar"
+  },
+  {
+   "f": "oku",
+   "cat": "행동",
+   "ko": "보내다",
+   "en": "send",
+   "hint": "일본어 okuru(送る)"
+  },
+  {
+   "f": "temu",
+   "cat": "행동",
+   "ko": "만나다",
+   "en": "meet",
+   "hint": "인도네시아어 temu"
+  },
+  {
+   "f": "hitu",
+   "cat": "행동",
+   "ko": "살다·삶",
+   "en": "live / life",
+   "hint": "인도네시아어 hidup"
+  },
+  {
+   "f": "sinu",
+   "cat": "행동",
+   "ko": "죽다",
+   "en": "die",
+   "hint": "일본어 shinu(死ぬ)"
+  },
+  {
+   "f": "pensa",
+   "cat": "행동",
+   "ko": "생각하다·생각",
+   "en": "think / thought",
+   "hint": "스페인어 pensar"
+  },
+  {
+   "f": "tahu",
+   "cat": "행동",
+   "ko": "알다",
+   "en": "know",
+   "hint": "인도네시아어 tahu"
+  },
+  {
+   "f": "mawu",
+   "cat": "행동",
+   "ko": "원하다",
+   "en": "want",
+   "hint": "인도네시아어 mau"
+  },
+  {
+   "f": "pisa",
+   "cat": "행동",
+   "ko": "할 수 있다",
+   "en": "can",
+   "hint": "인도네시아어 bisa"
+  },
+  {
+   "f": "nesi",
+   "cat": "행동",
+   "ko": "필요하다·해야 하다",
+   "en": "need / must",
+   "hint": "라틴어 necesse"
+  },
+  {
+   "f": "suka",
+   "cat": "행동",
+   "ko": "좋아하다",
+   "en": "like",
+   "hint": "인도네시아어 suka / 일본어 suki"
+  },
+  {
+   "f": "tamesu",
+   "cat": "행동",
+   "ko": "시도하다",
+   "en": "try",
+   "hint": "일본어 tamesu(試す)"
+  },
+  {
+   "f": "sele",
+   "cat": "행동",
+   "ko": "고르다",
+   "en": "choose",
+   "hint": "라틴어 seligere"
+  },
+  {
+   "f": "kalo",
+   "cat": "상태·성질",
+   "ko": "좋다·괜찮다",
+   "en": "good / okay",
+   "hint": "그리스어 kalos"
+  },
+  {
+   "f": "walu",
+   "cat": "상태·성질",
+   "ko": "나쁘다",
+   "en": "bad",
+   "hint": "일본어 warui(悪い)"
+  },
+  {
+   "f": "maha",
+   "cat": "상태·성질",
+   "ko": "크다",
+   "en": "big",
+   "hint": "산스크리트 maha"
+  },
+  {
+   "f": "pikolo",
+   "cat": "상태·성질",
+   "ko": "작다",
+   "en": "small",
+   "hint": "이탈리아어 piccolo"
+  },
+  {
+   "f": "nowa",
+   "cat": "상태·성질",
+   "ko": "새롭다",
+   "en": "new",
+   "hint": "라틴어 novus"
+  },
+  {
+   "f": "tuwa",
+   "cat": "상태·성질",
+   "ko": "오래되다·옛",
+   "en": "old",
+   "hint": "인도네시아어 tua"
+  },
+  {
+   "f": "sepa",
+   "cat": "상태·성질",
+   "ko": "빠르다",
+   "en": "fast",
+   "hint": "인도네시아어 cepat"
+  },
+  {
+   "f": "lento",
+   "cat": "상태·성질",
+   "ko": "느리다",
+   "en": "slow",
+   "hint": "이탈리아어 lento"
+  },
+  {
+   "f": "atu",
+   "cat": "상태·성질",
+   "ko": "뜨겁다·덥다",
+   "en": "hot",
+   "hint": "일본어 atsui(熱い)"
+  },
+  {
+   "f": "samu",
+   "cat": "상태·성질",
+   "ko": "차갑다·춥다",
+   "en": "cold",
+   "hint": "일본어 samui(寒い)"
+  },
+  {
+   "f": "tanto",
+   "cat": "상태·성질",
+   "ko": "많다·매우",
+   "en": "many / very",
+   "hint": "이탈리아어 tanto"
+  },
+  {
+   "f": "sukuna",
+   "cat": "상태·성질",
+   "ko": "적다·조금",
+   "en": "few / little",
+   "hint": "일본어 sukunai(少ない)"
+  },
+  {
+   "f": "senan",
+   "cat": "상태·성질",
+   "ko": "기쁘다",
+   "en": "happy / glad",
+   "hint": "인도네시아어 senang"
+  },
+  {
+   "f": "kanasi",
+   "cat": "상태·성질",
+   "ko": "슬프다",
+   "en": "sad",
+   "hint": "일본어 kanashii(悲しい)"
+  },
+  {
+   "f": "yasu",
+   "cat": "상태·성질",
+   "ko": "쉽다",
+   "en": "easy",
+   "hint": "일본어 yasashii(易しい)"
+  },
+  {
+   "f": "suli",
+   "cat": "상태·성질",
+   "ko": "어렵다",
+   "en": "difficult",
+   "hint": "인도네시아어 sulit"
+  },
+  {
+   "f": "welo",
+   "cat": "상태·성질",
+   "ko": "참·맞다",
+   "en": "true / right",
+   "hint": "라틴어 verus"
+  },
+  {
+   "f": "inta",
+   "cat": "상태·성질",
+   "ko": "아름답다",
+   "en": "beautiful",
+   "hint": "인도네시아어 indah"
+  },
+  {
+   "f": "kuwati",
+   "cat": "상태·성질",
+   "ko": "강하다",
+   "en": "strong",
+   "hint": "인도네시아어 kuat"
+  },
+  {
+   "f": "lemi",
+   "cat": "상태·성질",
+   "ko": "깨끗하다",
+   "en": "clean",
+   "hint": "스페인어 limpio"
+  },
+  {
+   "f": "onasi",
+   "cat": "상태·성질",
+   "ko": "같다",
+   "en": "same",
+   "hint": "일본어 onaji(同じ)"
+  },
+  {
+   "f": "taise",
+   "cat": "상태·성질",
+   "ko": "중요하다",
+   "en": "important",
+   "hint": "일본어 taisetsu(大切)"
+  },
+  {
+   "f": "kenko",
+   "cat": "상태·성질",
+   "ko": "건강하다",
+   "en": "healthy",
+   "hint": "일본어 kenko(健康)"
+  },
+  {
+   "f": "aman",
+   "cat": "상태·성질",
+   "ko": "안전하다",
+   "en": "safe",
+   "hint": "인도네시아어 aman"
+  },
+  {
+   "f": "hitoli",
+   "cat": "상태·성질",
+   "ko": "혼자·오직",
+   "en": "alone / only",
+   "hint": "일본어 hitori(一人)"
+  },
+  {
+   "f": "yunto",
+   "cat": "상태·성질",
+   "ko": "함께",
+   "en": "together",
+   "hint": "스페인어 junto"
+  },
+  {
+   "f": "itumo",
+   "cat": "상태·성질",
+   "ko": "항상",
+   "en": "always",
+   "hint": "일본어 itsumo"
+  },
+  {
+   "f": "nunka",
+   "cat": "상태·성질",
+   "ko": "결코·아무 ~ 않다",
+   "en": "never / none",
+   "hint": "스페인어 nunca"
+  },
+  {
+   "f": "munkin",
+   "cat": "상태·성질",
+   "ko": "아마",
+   "en": "maybe",
+   "hint": "인도네시아어 mungkin"
+  },
+  {
+   "f": "tanpi",
+   "cat": "상태·성질",
+   "ko": "또한·~도",
+   "en": "also",
+   "hint": "스페인어 también"
+  },
+  {
+   "f": "supe",
+   "cat": "상태·성질",
+   "ko": "모두·모든",
+   "en": "all / every",
+   "hint": "일본어 subete(全て)"
+  },
+  {
+   "f": "pate",
+   "cat": "상태·성질",
+   "ko": "일부·어떤",
+   "en": "part / some",
+   "hint": "영어 part"
+  },
+  {
+   "f": "layin",
+   "cat": "상태·성질",
+   "ko": "다른",
+   "en": "other",
+   "hint": "인도네시아어 lain"
+  },
+  {
+   "f": "ima",
+   "cat": "시간·공간",
+   "ko": "지금",
+   "en": "now",
+   "hint": "일본어 ima(今)"
+  },
+  {
+   "f": "ante",
+   "cat": "시간·공간",
+   "ko": "전·이전",
+   "en": "before",
+   "hint": "스페인어 antes"
+  },
+  {
+   "f": "noti",
+   "cat": "시간·공간",
+   "ko": "후·다음",
+   "en": "after / next",
+   "hint": "일본어 nochi(後)"
+  },
+  {
+   "f": "tia",
+   "cat": "시간·공간",
+   "ko": "날·하루",
+   "en": "day",
+   "hint": "스페인어 día"
+  },
+  {
+   "f": "toki",
+   "cat": "시간·공간",
+   "ko": "시간·때",
+   "en": "time",
+   "hint": "일본어 toki(時)"
+  },
+  {
+   "f": "sikan",
+   "cat": "시간·공간",
+   "ko": "시(時)·시간 단위",
+   "en": "hour",
+   "hint": "일본어 jikan(時間)"
+  },
+  {
+   "f": "meni",
+   "cat": "시간·공간",
+   "ko": "분(分)",
+   "en": "minute",
+   "hint": "인도네시아어 menit"
+  },
+  {
+   "f": "minku",
+   "cat": "시간·공간",
+   "ko": "주(週)",
+   "en": "week",
+   "hint": "인도네시아어 minggu"
+  },
+  {
+   "f": "luna",
+   "cat": "시간·공간",
+   "ko": "달·월(月)",
+   "en": "moon / month",
+   "hint": "라틴어 luna"
+  },
+  {
+   "f": "anyo",
+   "cat": "시간·공간",
+   "ko": "해·년(年)",
+   "en": "year",
+   "hint": "스페인어 año"
+  },
+  {
+   "f": "pahi",
+   "cat": "시간·공간",
+   "ko": "아침",
+   "en": "morning",
+   "hint": "인도네시아어 pagi"
+  },
+  {
+   "f": "yolu",
+   "cat": "시간·공간",
+   "ko": "밤",
+   "en": "night",
+   "hint": "일본어 yoru(夜)"
+  },
+  {
+   "f": "tokolo",
+   "cat": "시간·공간",
+   "ko": "곳·장소",
+   "en": "place",
+   "hint": "일본어 tokoro(所)"
+  },
+  {
+   "f": "uwe",
+   "cat": "시간·공간",
+   "ko": "위",
+   "en": "up / above",
+   "hint": "일본어 ue(上)"
+  },
+  {
+   "f": "sita",
+   "cat": "시간·공간",
+   "ko": "아래",
+   "en": "down / below",
+   "hint": "일본어 shita(下)"
+  },
+  {
+   "f": "naka",
+   "cat": "시간·공간",
+   "ko": "안·속",
+   "en": "inside",
+   "hint": "일본어 naka(中)"
+  },
+  {
+   "f": "soto",
+   "cat": "시간·공간",
+   "ko": "밖",
+   "en": "outside",
+   "hint": "일본어 soto(外)"
+  },
+  {
+   "f": "tepan",
+   "cat": "시간·공간",
+   "ko": "앞",
+   "en": "front",
+   "hint": "인도네시아어 depan"
+  },
+  {
+   "f": "pelan",
+   "cat": "시간·공간",
+   "ko": "뒤",
+   "en": "back / behind",
+   "hint": "인도네시아어 belakang"
+  },
+  {
+   "f": "kina",
+   "cat": "시간·공간",
+   "ko": "가깝다",
+   "en": "near",
+   "hint": "일본어 chikai(近い)"
+  },
+  {
+   "f": "lonta",
+   "cat": "시간·공간",
+   "ko": "멀다",
+   "en": "far",
+   "hint": "이탈리아어 lontano"
+  },
+  {
+   "f": "kili",
+   "cat": "시간·공간",
+   "ko": "왼쪽",
+   "en": "left",
+   "hint": "인도네시아어 kiri"
+  },
+  {
+   "f": "miki",
+   "cat": "시간·공간",
+   "ko": "오른쪽",
+   "en": "right (side)",
+   "hint": "일본어 migi(右)"
+  },
+  {
+   "f": "lalan",
+   "cat": "시간·공간",
+   "ko": "길·방법",
+   "en": "road / way / method",
+   "hint": "인도네시아어 jalan"
+  },
+  {
+   "f": "awa",
+   "cat": "자연·물질",
+   "ko": "물",
+   "en": "water",
+   "hint": ""
+  },
+  {
+   "f": "hino",
+   "cat": "자연·물질",
+   "ko": "불",
+   "en": "fire",
+   "hint": "일본어 hi(火)"
+  },
+  {
+   "f": "tela",
+   "cat": "자연·물질",
+   "ko": "땅·흙",
+   "en": "earth / ground",
+   "hint": "라틴어 terra"
+  },
+  {
+   "f": "anin",
+   "cat": "자연·물질",
+   "ko": "바람·공기",
+   "en": "wind / air",
+   "hint": "인도네시아어 angin"
+  },
+  {
+   "f": "lanki",
+   "cat": "자연·물질",
+   "ko": "하늘",
+   "en": "sky",
+   "hint": "인도네시아어 langit"
+  },
+  {
+   "f": "tayo",
+   "cat": "자연·물질",
+   "ko": "해·태양",
+   "en": "sun",
+   "hint": "일본어 taiyo(太陽)"
+  },
+  {
+   "f": "hosi",
+   "cat": "자연·물질",
+   "ko": "별",
+   "en": "star",
+   "hint": "일본어 hoshi(星)"
+  },
+  {
+   "f": "luse",
+   "cat": "자연·물질",
+   "ko": "빛",
+   "en": "light",
+   "hint": "라틴어 lux"
+  },
+  {
+   "f": "pohon",
+   "cat": "자연·물질",
+   "ko": "나무",
+   "en": "tree",
+   "hint": "인도네시아어 pohon"
+  },
+  {
+   "f": "kusuma",
+   "cat": "자연·물질",
+   "ko": "꽃",
+   "en": "flower",
+   "hint": "산스크리트 kusuma"
+  },
+  {
+   "f": "hewan",
+   "cat": "자연·물질",
+   "ko": "동물",
+   "en": "animal",
+   "hint": "인도네시아어 hewan"
+  },
+  {
+   "f": "kane",
+   "cat": "자연·물질",
+   "ko": "개",
+   "en": "dog",
+   "hint": "라틴어 canis"
+  },
+  {
+   "f": "neko",
+   "cat": "자연·물질",
+   "ko": "고양이",
+   "en": "cat",
+   "hint": "일본어 neko(猫)"
+  },
+  {
+   "f": "pulun",
+   "cat": "자연·물질",
+   "ko": "새",
+   "en": "bird",
+   "hint": "인도네시아어 burung"
+  },
+  {
+   "f": "sakana",
+   "cat": "자연·물질",
+   "ko": "물고기",
+   "en": "fish",
+   "hint": "일본어 sakana(魚)"
+  },
+  {
+   "f": "huyan",
+   "cat": "자연·물질",
+   "ko": "비",
+   "en": "rain",
+   "hint": "인도네시아어 hujan"
+  },
+  {
+   "f": "newe",
+   "cat": "자연·물질",
+   "ko": "눈(雪)",
+   "en": "snow",
+   "hint": "이탈리아어 neve"
+  },
+  {
+   "f": "umi",
+   "cat": "자연·물질",
+   "ko": "바다",
+   "en": "sea",
+   "hint": "일본어 umi(海)"
+  },
+  {
+   "f": "kunun",
+   "cat": "자연·물질",
+   "ko": "산",
+   "en": "mountain",
+   "hint": "인도네시아어 gunung"
+  },
+  {
+   "f": "liwe",
+   "cat": "자연·물질",
+   "ko": "강",
+   "en": "river",
+   "hint": "프랑스어 rivière"
+  },
+  {
+   "f": "isi",
+   "cat": "자연·물질",
+   "ko": "돌",
+   "en": "stone",
+   "hint": "일본어 ishi(石)"
+  },
+  {
+   "f": "loso",
+   "cat": "자연·물질",
+   "ko": "빨강",
+   "en": "red",
+   "hint": "이탈리아어 rosso"
+  },
+  {
+   "f": "pilu",
+   "cat": "자연·물질",
+   "ko": "파랑",
+   "en": "blue",
+   "hint": "인도네시아어 biru"
+  },
+  {
+   "f": "mito",
+   "cat": "자연·물질",
+   "ko": "초록",
+   "en": "green",
+   "hint": "일본어 midori(緑)"
+  },
+  {
+   "f": "silo",
+   "cat": "자연·물질",
+   "ko": "하양",
+   "en": "white",
+   "hint": "일본어 shiro(白)"
+  },
+  {
+   "f": "hitan",
+   "cat": "자연·물질",
+   "ko": "검정",
+   "en": "black",
+   "hint": "인도네시아어 hitam"
+  },
+  {
+   "f": "amali",
+   "cat": "자연·물질",
+   "ko": "노랑",
+   "en": "yellow",
+   "hint": "스페인어 amarillo"
+  },
+  {
+   "f": "kasa",
+   "cat": "사회·생활",
+   "ko": "집",
+   "en": "house / home",
+   "hint": "스페인어 casa"
+  },
+  {
+   "f": "heya",
+   "cat": "사회·생활",
+   "ko": "방",
+   "en": "room",
+   "hint": "일본어 heya(部屋)"
+  },
+  {
+   "f": "pintu",
+   "cat": "사회·생활",
+   "ko": "문",
+   "en": "door",
+   "hint": "인도네시아어 pintu"
+  },
+  {
+   "f": "kota",
+   "cat": "사회·생활",
+   "ko": "도시",
+   "en": "city",
+   "hint": "인도네시아어 kota"
+  },
+  {
+   "f": "nekala",
+   "cat": "사회·생활",
+   "ko": "나라",
+   "en": "country",
+   "hint": "인도네시아어 negara"
+  },
+  {
+   "f": "tuniya",
+   "cat": "사회·생활",
+   "ko": "세계",
+   "en": "world",
+   "hint": "인도네시아어 dunia"
+  },
+  {
+   "f": "mise",
+   "cat": "사회·생활",
+   "ko": "가게",
+   "en": "shop",
+   "hint": "일본어 mise(店)"
+  },
+  {
+   "f": "uwan",
+   "cat": "사회·생활",
+   "ko": "돈",
+   "en": "money",
+   "hint": "인도네시아어 uang"
+  },
+  {
+   "f": "kaluma",
+   "cat": "사회·생활",
+   "ko": "차·탈것",
+   "en": "vehicle",
+   "hint": "일본어 kuruma(車)"
+  },
+  {
+   "f": "lopa",
+   "cat": "사회·생활",
+   "ko": "옷",
+   "en": "clothes",
+   "hint": "스페인어 ropa"
+  },
+  {
+   "f": "kapan",
+   "cat": "사회·생활",
+   "ko": "가방",
+   "en": "bag",
+   "hint": "한국어 가방 / 일본어 kaban"
+  },
+  {
+   "f": "puku",
+   "cat": "사회·생활",
+   "ko": "책",
+   "en": "book",
+   "hint": "인도네시아어 buku"
+  },
+  {
+   "f": "onkaku",
+   "cat": "사회·생활",
+   "ko": "음악",
+   "en": "music",
+   "hint": "일본어 ongaku(音楽)"
+  },
+  {
+   "f": "kulin",
+   "cat": "사회·생활",
+   "ko": "그림·사진",
+   "en": "picture / photo",
+   "hint": "한국어 그림"
+  },
+  {
+   "f": "laku",
+   "cat": "사회·생활",
+   "ko": "노래",
+   "en": "song",
+   "hint": "인도네시아어 lagu"
+  },
+  {
+   "f": "otoli",
+   "cat": "사회·생활",
+   "ko": "춤",
+   "en": "dance",
+   "hint": "일본어 odori(踊り)"
+  },
+  {
+   "f": "mono",
+   "cat": "사회·생활",
+   "ko": "것·일(事)",
+   "en": "thing",
+   "hint": "일본어 mono(物)"
+  },
+  {
+   "f": "pahasa",
+   "cat": "사회·생활",
+   "ko": "언어",
+   "en": "language",
+   "hint": "인도네시아어 bahasa"
+  },
+  {
+   "f": "soni",
+   "cat": "사회·생활",
+   "ko": "소리",
+   "en": "sound",
+   "hint": "라틴어 sonus"
+  },
+  {
+   "f": "numo",
+   "cat": "사회·생활",
+   "ko": "수·숫자",
+   "en": "number",
+   "hint": "라틴어 numerus"
+  },
+  {
+   "f": "ola",
+   "cat": "사회·생활",
+   "ko": "안녕(인사)",
+   "en": "hello",
+   "hint": "스페인어 hola"
+  },
+  {
+   "f": "makasi",
+   "cat": "사회·생활",
+   "ko": "고맙다·감사",
+   "en": "thanks",
+   "hint": "인도네시아어 makasih"
+  },
+  {
+   "f": "miyan",
+   "cat": "사회·생활",
+   "ko": "미안하다",
+   "en": "sorry",
+   "hint": "한국어 미안"
+  },
+  {
+   "f": "matane",
+   "cat": "사회·생활",
+   "ko": "잘 가·안녕(작별)",
+   "en": "goodbye",
+   "hint": "일본어 mata ne"
+  },
+  {
+   "f": "inpo",
+   "cat": "정보·기술",
+   "ko": "정보",
+   "en": "information",
+   "hint": "info"
+  },
+  {
+   "f": "meka",
+   "cat": "정보·기술",
+   "ko": "기계·도구",
+   "en": "machine / tool",
+   "hint": "mechanic"
+  },
+  {
+   "f": "sukin",
+   "cat": "정보·기술",
+   "ko": "화면",
+   "en": "screen",
+   "hint": "screen"
+  },
+  {
+   "f": "linka",
+   "cat": "정보·기술",
+   "ko": "연결(하다)",
+   "en": "connect / link",
+   "hint": "link"
+  },
+  {
+   "f": "akun",
+   "cat": "정보·기술",
+   "ko": "계정",
+   "en": "account",
+   "hint": "인도네시아어 akun"
+  },
+  {
+   "f": "tenwa",
+   "cat": "정보·기술",
+   "ko": "전화",
+   "en": "phone",
+   "hint": "일본어 denwa(電話)"
+  },
+  {
+   "f": "wepu",
+   "cat": "정보·기술",
+   "ko": "웹·인터넷",
+   "en": "web / internet",
+   "hint": "web"
+  },
+  {
+   "f": "eleki",
+   "cat": "정보·기술",
+   "ko": "전기",
+   "en": "electricity",
+   "hint": "electric"
+  },
+  {
+   "f": "apuli",
+   "cat": "정보·기술",
+   "ko": "앱·프로그램",
+   "en": "app",
+   "hint": "application"
+  },
+  {
+   "f": "wose",
+   "cat": "정보·기술",
+   "ko": "목소리·음성",
+   "en": "voice",
+   "hint": "이탈리아어 voce"
+  },
+  {
+   "f": "lason",
+   "cat": "상태·성질",
+   "ko": "이유",
+   "en": "reason",
+   "hint": "스페인어 razón / 영어 reason"
+  },
+  {
+   "f": "tipo",
+   "cat": "상태·성질",
+   "ko": "종류",
+   "en": "kind / type",
+   "hint": "영어·스페인어 tipo"
+  },
+  {
+   "f": "itelu",
+   "cat": "행동",
+   "ko": "다시",
+   "en": "again",
+   "hint": "라틴어 iterum"
+  }
+ ],
+ "particles": [
+  {
+   "f": "mi",
+   "ko": "나",
+   "en": "I / me",
+   "cls": "대명사",
+   "note": "복수는 mi mo(우리)"
+  },
+  {
+   "f": "tu",
+   "ko": "너",
+   "en": "you",
+   "cls": "대명사",
+   "note": "복수는 tu mo"
+  },
+  {
+   "f": "li",
+   "ko": "그/그녀/그것",
+   "en": "he / she / it",
+   "cls": "대명사",
+   "note": "성 구분 없음, 복수는 li mo"
+  },
+  {
+   "f": "ni",
+   "ko": "이것/이",
+   "en": "this",
+   "cls": "지시",
+   "note": "an ni = 여기"
+  },
+  {
+   "f": "wa",
+   "ko": "저것/저",
+   "en": "that",
+   "cls": "지시",
+   "note": "an wa = 저기"
+  },
+  {
+   "f": "ke",
+   "ko": "무엇/어느",
+   "en": "what / which",
+   "cls": "의문",
+   "note": "의문사는 제자리(이동 없음)"
+  },
+  {
+   "f": "mo",
+   "ko": "[복수]",
+   "en": "plural",
+   "cls": "입자",
+   "note": "명사 뒤: neko mo = 고양이들"
+  },
+  {
+   "f": "si",
+   "ko": "~이다",
+   "en": "is / are (copula)",
+   "cls": "동사형 입자",
+   "note": "형태 변화 없음"
+  },
+  {
+   "f": "pa",
+   "ko": "[과거]",
+   "en": "past",
+   "cls": "시제",
+   "note": "동사 앞"
+  },
+  {
+   "f": "wi",
+   "ko": "[미래]",
+   "en": "future",
+   "cls": "시제",
+   "note": "동사 앞"
+  },
+  {
+   "f": "on",
+   "ko": "[진행]",
+   "en": "ongoing",
+   "cls": "상",
+   "note": "동사 앞, 선택"
+  },
+  {
+   "f": "pin",
+   "ko": "[완료]",
+   "en": "completed",
+   "cls": "상",
+   "note": "동사 앞, 선택"
+  },
+  {
+   "f": "no",
+   "ko": "아니/않다",
+   "en": "not / no",
+   "cls": "부정",
+   "note": "시제 입자보다 앞"
+  },
+  {
+   "f": "ya",
+   "ko": "예",
+   "en": "yes",
+   "cls": "응답",
+   "note": ""
+  },
+  {
+   "f": "ka",
+   "ko": "[의문]",
+   "en": "question",
+   "cls": "입자",
+   "note": "문장 끝, 의문사 있으면 생략 가능"
+  },
+  {
+   "f": "lo",
+   "ko": "~하는/~라는",
+   "en": "that / which",
+   "cls": "관계·보문",
+   "note": "명사 뒤 관계절, 동사 뒤 보문"
+  },
+  {
+   "f": "ne",
+   "ko": "~의",
+   "en": "of / 's",
+   "cls": "소유",
+   "note": "소유자 + ne + 대상"
+  },
+  {
+   "f": "an",
+   "ko": "~에(서)/안에",
+   "en": "at / in / on",
+   "cls": "전치",
+   "note": "장소·시간 일반"
+  },
+  {
+   "f": "to",
+   "ko": "~로/~에게",
+   "en": "to / toward",
+   "cls": "전치",
+   "note": "방향·도착점·수신자"
+  },
+  {
+   "f": "sa",
+   "ko": "~에서부터/~보다",
+   "en": "from / than",
+   "cls": "전치",
+   "note": "출발점, 비교 기준"
+  },
+  {
+   "f": "ko",
+   "ko": "~와/~로써",
+   "en": "with / by",
+   "cls": "전치",
+   "note": "동반·도구·방법"
+  },
+  {
+   "f": "po",
+   "ko": "~을 위해",
+   "en": "for",
+   "cls": "전치",
+   "note": "목적·수혜자, po ke = 왜"
+  },
+  {
+   "f": "i",
+   "ko": "그리고",
+   "en": "and",
+   "cls": "접속",
+   "note": ""
+  },
+  {
+   "f": "o",
+   "ko": "또는",
+   "en": "or",
+   "cls": "접속",
+   "note": ""
+  },
+  {
+   "f": "yen",
+   "ko": "그러나",
+   "en": "but",
+   "cls": "접속",
+   "note": ""
+  },
+  {
+   "f": "so",
+   "ko": "그래서",
+   "en": "so / therefore",
+   "cls": "접속",
+   "note": ""
+  },
+  {
+   "f": "wen",
+   "ko": "만약/~때",
+   "en": "if / when",
+   "cls": "접속",
+   "note": "절 앞"
+  },
+  {
+   "f": "kun",
+   "ko": "왜냐하면",
+   "en": "because",
+   "cls": "접속",
+   "note": "절 앞"
+  },
+  {
+   "f": "pi",
+   "ko": "더",
+   "en": "more",
+   "cls": "비교",
+   "note": "성질어 앞"
+  },
+  {
+   "f": "min",
+   "ko": "덜",
+   "en": "less",
+   "cls": "비교",
+   "note": "성질어 앞"
+  },
+  {
+   "f": "pe",
+   "ko": "부탁해/~해 주세요",
+   "en": "please",
+   "cls": "공손",
+   "note": "동사 앞"
+  }
+ ],
+ "numbers": [
+  {
+   "f": "yun",
+   "v": 0,
+   "note": "y = 열 번째 자음"
+  },
+  {
+   "f": "pan",
+   "v": 1,
+   "note": "p = 첫 자음"
+  },
+  {
+   "f": "tun",
+   "v": 2,
+   "note": "t"
+  },
+  {
+   "f": "kin",
+   "v": 3,
+   "note": "k"
+  },
+  {
+   "f": "mon",
+   "v": 4,
+   "note": "m"
+  },
+  {
+   "f": "nen",
+   "v": 5,
+   "note": "n"
+  },
+  {
+   "f": "sen",
+   "v": 6,
+   "note": "s"
+  },
+  {
+   "f": "hon",
+   "v": 7,
+   "note": "h"
+  },
+  {
+   "f": "lan",
+   "v": 8,
+   "note": "l"
+  },
+  {
+   "f": "win",
+   "v": 9,
+   "note": "w"
+  },
+  {
+   "f": "ten",
+   "v": 10,
+   "note": "십"
+  },
+  {
+   "f": "hun",
+   "v": 100,
+   "note": "백"
+  },
+  {
+   "f": "mila",
+   "v": 1000,
+   "note": "천"
+  },
+  {
+   "f": "miliyon",
+   "v": 1000000,
+   "note": "백만"
+  }
+ ]
+}

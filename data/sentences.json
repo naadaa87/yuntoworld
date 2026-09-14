@@ -1,0 +1,338 @@
+[
+ {
+  "id": "s001",
+  "scene": "인사·감정",
+  "y": "ola! kalo pahi.",
+  "ko": "안녕! 좋은 아침.",
+  "note": ""
+ },
+ {
+  "id": "s002",
+  "scene": "인사·감정",
+  "y": "tu si kalo ka?",
+  "ko": "잘 지내? (너 괜찮아?)",
+  "note": "— ya, mi si kalo. makasi."
+ },
+ {
+  "id": "s003",
+  "scene": "인사·감정",
+  "y": "mi tanto senan.",
+  "ko": "나 정말 기뻐.",
+  "note": "tanto = 매우"
+ },
+ {
+  "id": "s004",
+  "scene": "인사·감정",
+  "y": "miyan, mi pa lento.",
+  "ko": "미안, 늦었어.",
+  "note": "“느렸다”로 표현"
+ },
+ {
+  "id": "s005",
+  "scene": "인사·감정",
+  "y": "makasi po tu ne tolon.",
+  "ko": "도와줘서 고마워.",
+  "note": "“너의 도움에 감사”"
+ },
+ {
+  "id": "s006",
+  "scene": "인사·감정",
+  "y": "matane! noti tia liha.",
+  "ko": "잘 가! 내일 봐.",
+  "note": "“다음 날 보다”"
+ },
+ {
+  "id": "s007",
+  "scene": "자기소개·프로필",
+  "y": "mi ne nami si Siyun.",
+  "ko": "내 이름은 시준이야.",
+  "note": ""
+ },
+ {
+  "id": "s008",
+  "scene": "자기소개·프로필",
+  "y": "mi kulu sa Hankuk. mi hitu an Sewulu.",
+  "ko": "나는 한국에서 왔어. 서울에 살아.",
+  "note": ""
+ },
+ {
+  "id": "s009",
+  "scene": "자기소개·프로필",
+  "y": "mi suka neko i onkaku.",
+  "ko": "나는 고양이와 음악을 좋아해.",
+  "note": ""
+ },
+ {
+  "id": "s010",
+  "scene": "자기소개·프로필",
+  "y": "mi on apen yunto.",
+  "ko": "나는 윤토를 배우는 중이야.",
+  "note": "프로필 한 줄"
+ },
+ {
+  "id": "s011",
+  "scene": "자기소개·프로필",
+  "y": "mi si sikoto insan an nowa mise.",
+  "ko": "나는 새 가게에서 일하는 사람이야.",
+  "note": "합성어"
+ },
+ {
+  "id": "s012",
+  "scene": "자기소개·프로필",
+  "y": "tu kulu sa ke nekala?",
+  "ko": "너는 어느 나라에서 왔어?",
+  "note": ""
+ },
+ {
+  "id": "s013",
+  "scene": "짧은 메시지·약속",
+  "y": "tu si an ke tokolo?",
+  "ko": "너 어디야?",
+  "note": ""
+ },
+ {
+  "id": "s014",
+  "scene": "짧은 메시지·약속",
+  "y": "mi wi kulu an sikan hon.",
+  "ko": "7시에 갈게.",
+  "note": ""
+ },
+ {
+  "id": "s015",
+  "scene": "짧은 메시지·약속",
+  "y": "pe tunku sukuna toki.",
+  "ko": "조금만 기다려 줘.",
+  "note": "sukuna toki = 잠깐"
+ },
+ {
+  "id": "s016",
+  "scene": "짧은 메시지·약속",
+  "y": "mi mo temu an kome tokolo ka?",
+  "ko": "우리 식당에서 만날까?",
+  "note": ""
+ },
+ {
+  "id": "s017",
+  "scene": "짧은 메시지·약속",
+  "y": "ya, kalo. mi pin oku inpo to tu.",
+  "ko": "응, 좋아. 정보 보냈어.",
+  "note": ""
+ },
+ {
+  "id": "s018",
+  "scene": "짧은 메시지·약속",
+  "y": "no, mi no pisa. mi nesi sikoto.",
+  "ko": "아니, 못 가. 일해야 해.",
+  "note": ""
+ },
+ {
+  "id": "s019",
+  "scene": "SNS 댓글·밈",
+  "y": "ni si tanto inta!",
+  "ko": "이거 진짜 예쁘다!",
+  "note": ""
+ },
+ {
+  "id": "s020",
+  "scene": "SNS 댓글·밈",
+  "y": "mi mawu ni.",
+  "ko": "이거 갖고 싶다.",
+  "note": ""
+ },
+ {
+  "id": "s021",
+  "scene": "SNS 댓글·밈",
+  "y": "welo! tu ne hanasu si welo.",
+  "ko": "맞아! 네 말이 맞아.",
+  "note": "hanasu = 말"
+ },
+ {
+  "id": "s022",
+  "scene": "SNS 댓글·밈",
+  "y": "kin neko an pan kulin!",
+  "ko": "사진 한 장에 고양이 세 마리!",
+  "note": "숫자"
+ },
+ {
+  "id": "s023",
+  "scene": "SNS 댓글·밈",
+  "y": "supe insan suka ni laku.",
+  "ko": "모두가 이 노래를 좋아해.",
+  "note": ""
+ },
+ {
+  "id": "s024",
+  "scene": "SNS 댓글·밈",
+  "y": "ke insan pa tukulu ni?",
+  "ko": "누가 이걸 만들었어?",
+  "note": ""
+ },
+ {
+  "id": "s025",
+  "scene": "커뮤니티·게임 문구",
+  "y": "mi mo si pan kunpu.",
+  "ko": "우리는 한 팀이다.",
+  "note": "슬로건"
+ },
+ {
+  "id": "s026",
+  "scene": "커뮤니티·게임 문구",
+  "y": "yunto, mi mo si kuwati.",
+  "ko": "함께라면 우리는 강하다.",
+  "note": "언어 이름의 뜻을 그대로"
+ },
+ {
+  "id": "s027",
+  "scene": "커뮤니티·게임 문구",
+  "y": "ake pintu, mituke hosi.",
+  "ko": "문을 열고 별을 찾아라.",
+  "note": "퀘스트 문장"
+ },
+ {
+  "id": "s028",
+  "scene": "커뮤니티·게임 문구",
+  "y": "tu wi sele ke lalan?",
+  "ko": "어느 길을 고를 거야?",
+  "note": ""
+ },
+ {
+  "id": "s029",
+  "scene": "커뮤니티·게임 문구",
+  "y": "nowa insan, ola!",
+  "ko": "새 멤버, 환영해!",
+  "note": ""
+ },
+ {
+  "id": "s030",
+  "scene": "커뮤니티·게임 문구",
+  "y": "no yame. tamesu noti.",
+  "ko": "멈추지 마. 다시 시도해.",
+  "note": "“다음에 시도”"
+ },
+ {
+  "id": "s031",
+  "scene": "일기·메모",
+  "y": "ni tia mi pa sikoto tanto.",
+  "ko": "오늘 일을 많이 했다.",
+  "note": ""
+ },
+ {
+  "id": "s032",
+  "scene": "일기·메모",
+  "y": "huyan pa kulu an yolu.",
+  "ko": "밤에 비가 왔다.",
+  "note": ""
+ },
+ {
+  "id": "s033",
+  "scene": "일기·메모",
+  "y": "mi pa kiyo pan puku. li si kalo.",
+  "ko": "책 한 권을 읽었다. 좋았다.",
+  "note": ""
+ },
+ {
+  "id": "s034",
+  "scene": "일기·메모",
+  "y": "noti tia mi wi iko to umi ko pamili.",
+  "ko": "내일 가족과 바다에 갈 것이다.",
+  "note": ""
+ },
+ {
+  "id": "s035",
+  "scene": "일기·메모",
+  "y": "mi no pa nemulu kalo.",
+  "ko": "잘 못 잤다.",
+  "note": "“좋게 자지 않았다”"
+ },
+ {
+  "id": "s036",
+  "scene": "일기·메모",
+  "y": "mi mawu apen pi.",
+  "ko": "더 배우고 싶다.",
+  "note": "pi 단독 사용"
+ },
+ {
+  "id": "s037",
+  "scene": "작품명·브랜드 표현",
+  "y": "luse an yolu",
+  "ko": "밤의 빛",
+  "note": "작품명"
+ },
+ {
+  "id": "s038",
+  "scene": "작품명·브랜드 표현",
+  "y": "nowa lalan",
+  "ko": "새 길",
+  "note": ""
+ },
+ {
+  "id": "s039",
+  "scene": "작품명·브랜드 표현",
+  "y": "yunto kasa",
+  "ko": "함께의 집",
+  "note": "공간·브랜드명"
+ },
+ {
+  "id": "s040",
+  "scene": "작품명·브랜드 표현",
+  "y": "pikolo hosi",
+  "ko": "작은 별",
+  "note": ""
+ },
+ {
+  "id": "s041",
+  "scene": "작품명·브랜드 표현",
+  "y": "kalo tia",
+  "ko": "좋은 날",
+  "note": ""
+ },
+ {
+  "id": "s042",
+  "scene": "작품명·브랜드 표현",
+  "y": "awa i hino",
+  "ko": "물과 불",
+  "note": ""
+ },
+ {
+  "id": "s043",
+  "scene": "AI 튜터와의 대화",
+  "y": "pe ensi mi: “집”은 ke?",
+  "ko": "가르쳐 줘: “집”은 뭐야?",
+  "note": "— kasa."
+ },
+ {
+  "id": "s044",
+  "scene": "AI 튜터와의 대화",
+  "y": "ni si welo ka? “mi pa iko kasa.”",
+  "ko": "이거 맞아? “mi pa iko kasa.”",
+  "note": "— no. “mi pa iko to kasa.” (to 필요)"
+ },
+ {
+  "id": "s045",
+  "scene": "AI 튜터와의 대화",
+  "y": "pe tona kin hanasu ko “wen”.",
+  "ko": "“wen”으로 문장 세 개 만들어 줘.",
+  "note": "hanasu = 말·문장"
+ },
+ {
+  "id": "s046",
+  "scene": "AI 튜터와의 대화",
+  "y": "mi tahu ni ka?",
+  "ko": "내가 이걸 알아?",
+  "note": "복습 요청"
+ },
+ {
+  "id": "s047",
+  "scene": "AI 튜터와의 대화",
+  "y": "makasi! ima mi tahu.",
+  "ko": "고마워! 이제 알겠어.",
+  "note": ""
+ },
+ {
+  "id": "s048",
+  "scene": "AI 튜터와의 대화",
+  "y": "pe muta ni to yunto: “좋은 밤”.",
+  "ko": "이걸 윤토로 바꿔 줘: “좋은 밤”.",
+  "note": "— kalo yolu."
+ }
+]
