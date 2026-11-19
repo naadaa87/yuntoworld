@@ -11,10 +11,13 @@
     });
   }
   // 현재 페이지 표시
-  const here = location.pathname.split('/').pop() || 'index.html';
+  // 주소는 확장자 없이 열린다(/learn). 옛 .html 주소로 들어와도 같은 메뉴가 표시되게 맞춘다.
+  const page = v => (v || '').split('#')[0].split('?')[0].split('/').pop().replace(/\.html$/, '').replace(/^index$/, '');
+  const here = page(location.pathname);
   document.querySelectorAll('.nav a').forEach(a => {
-    const href = a.getAttribute('href');
-    if (href === here || (here === '' && href === 'index.html')) a.setAttribute('aria-current', 'page');
+    const href = a.getAttribute('href') || '';
+    if (/^(https?:|mailto:|tel:)/.test(href)) return;
+    if (page(href === './' ? '' : href) === here) a.setAttribute('aria-current', 'page');
   });
   // 홈 히어로 변환기
   const inp = document.getElementById('hero-in');
