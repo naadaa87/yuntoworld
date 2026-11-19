@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://yunto.pages.dev/sitemap.xml
+Disallow: /cdn-cgi/
+Sitemap: https://yuntoworld.pages.dev/sitemap.xml

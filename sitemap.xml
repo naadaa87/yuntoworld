@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://yunto.pages.dev/index.html</loc></url>
-  <url><loc>https://yunto.pages.dev/learn.html</loc></url>
-  <url><loc>https://yunto.pages.dev/grammar.html</loc></url>
-  <url><loc>https://yunto.pages.dev/script.html</loc></url>
-  <url><loc>https://yunto.pages.dev/dictionary.html</loc></url>
-  <url><loc>https://yunto.pages.dev/phrases.html</loc></url>
-  <url><loc>https://yunto.pages.dev/about.html</loc></url>
+  <url><loc>https://yuntoworld.pages.dev/</loc></url>
+  <url><loc>https://yuntoworld.pages.dev/learn</loc></url>
+  <url><loc>https://yuntoworld.pages.dev/grammar</loc></url>
+  <url><loc>https://yuntoworld.pages.dev/script</loc></url>
+  <url><loc>https://yuntoworld.pages.dev/dictionary</loc></url>
+  <url><loc>https://yuntoworld.pages.dev/phrases</loc></url>
+  <url><loc>https://yuntoworld.pages.dev/about</loc></url>
 </urlset>

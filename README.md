@@ -39,7 +39,7 @@ img/                 심볼, 파비콘, 공유용 이미지
 ## 바꿔야 할 값
 
 - GitHub 저장소 주소는 HTML 안에 `https://github.com/naadaa87/yunto`로 들어 있습니다. 저장소 이름이 다르면 모든 HTML 파일에서 이 주소를 찾아 바꾸세요. (편집기의 “모두 바꾸기”로 한 번에 됩니다.)
-- 공유용 이미지 주소(`og:image`)는 `https://yunto.pages.dev/img/og.png`로 되어 있습니다. 도메인을 바꾸면 함께 바꾸세요.
+- 공유용 이미지 주소(`og:image`)는 `https://yuntoworld.pages.dev/img/og.png`로 되어 있습니다. 도메인을 바꾸면 함께 바꾸세요.
 - 낱말 제안 양식은 `.github/ISSUE_TEMPLATE/word.md`에 있습니다.
 
 ## 데이터 수정
